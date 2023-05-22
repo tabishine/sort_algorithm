@@ -9,7 +9,7 @@ This program performs an external merge sort on a large file consisting of lines
 
 ## Usage
 
-1. Clone the repository or download the source code files.
+1. Clone the repository or download the source code files
 
 2. Install dependencies by running the following command in the terminal:
 
