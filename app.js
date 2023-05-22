@@ -5,8 +5,8 @@ const { promisify } = require('util');
 const readFileAsync = promisify(fs.readFile);
 const writeFileAsync = promisify(fs.writeFile);
 
-const inputFilePath = 'path/to/1tb/file.txt'; // Replace with the path to your 1 TB file
-const outputFilePath = 'path/to/sorted/file.txt'; // Replace with the desired output file path
+const inputFilePath = 'path/to/1tb/file.txt'; 
+const outputFilePath = 'path/to/sorted/file.txt'; 
 const availableRAM = 500 * 1024 * 1024; // Available RAM in bytes (500MB)
 
 async function externalMergeSort(inputFilePath, outputFilePath, availableRAM) {
